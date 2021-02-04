@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BE15E50921BF877D4F725B7 /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E914E39EA6A1A76A12BE08 /* libPods-RWPickFlavor.a */; };
 		8D4D110125CC82740083E1BC /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4D10FF25CC82740083E1BC /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D110E25CC82FE0083E1BC /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D110925CC82FE0083E1BC /* Resources */; };
+		8D4D110F25CC82FE0083E1BC /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D110A25CC82FE0083E1BC /* Models */; };
+		8D4D111025CC82FE0083E1BC /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D110B25CC82FE0083E1BC /* Views */; };
+		8D4D111125CC82FE0083E1BC /* Categories in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D110C25CC82FE0083E1BC /* Categories */; };
+		8D4D111225CC82FE0083E1BC /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D110D25CC82FE0083E1BC /* Controllers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57967F1B804562696E8DF307 /* Pods-RWPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.release.xcconfig"; path = "Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
 		8D4D10FC25CC82740083E1BC /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4D10FF25CC82740083E1BC /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
 		8D4D110025CC82740083E1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4D110925CC82FE0083E1BC /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		8D4D110A25CC82FE0083E1BC /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		8D4D110B25CC82FE0083E1BC /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		8D4D110C25CC82FE0083E1BC /* Categories */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Categories; sourceTree = "<group>"; };
+		8D4D110D25CC82FE0083E1BC /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		A6E914E39EA6A1A76A12BE08 /* libPods-RWPickFlavor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RWPickFlavor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32B495B8765693D4CC5E8FF /* Pods-RWPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.debug.xcconfig"; path = "Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE15E50921BF877D4F725B7 /* libPods-RWPickFlavor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6EF3A5D7A7B3F7DC052FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B32B495B8765693D4CC5E8FF /* Pods-RWPickFlavor.debug.xcconfig */,
+				57967F1B804562696E8DF307 /* Pods-RWPickFlavor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		82FBCDF3DDF14F765387B689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E914E39EA6A1A76A12BE08 /* libPods-RWPickFlavor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D4D10F225CC82740083E1BC = {
 			isa = PBXGroup;
 			children = (
 				8D4D10FE25CC82740083E1BC /* RWPickFlavor */,
 				8D4D10FD25CC82740083E1BC /* Products */,
+				1D6EF3A5D7A7B3F7DC052FDB /* Pods */,
+				82FBCDF3DDF14F765387B689 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +80,11 @@
 		8D4D10FE25CC82740083E1BC /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				8D4D110C25CC82FE0083E1BC /* Categories */,
+				8D4D110D25CC82FE0083E1BC /* Controllers */,
+				8D4D110A25CC82FE0083E1BC /* Models */,
+				8D4D110925CC82FE0083E1BC /* Resources */,
+				8D4D110B25CC82FE0083E1BC /* Views */,
 				8D4D10FF25CC82740083E1BC /* RWPickFlavor.h */,
 				8D4D110025CC82740083E1BC /* Info.plist */,
 			);
@@ -70,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D4D110425CC82740083E1BC /* Build configuration list for PBXNativeTarget "RWPickFlavor" */;
 			buildPhases = (
+				EFD5D1D5FE7C8DCA921F88A2 /* [CP] Check Pods Manifest.lock */,
 				8D4D10F725CC82740083E1BC /* Headers */,
 				8D4D10F825CC82740083E1BC /* Sources */,
 				8D4D10F925CC82740083E1BC /* Frameworks */,
@@ -120,10 +160,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4D111225CC82FE0083E1BC /* Controllers in Resources */,
+				8D4D111125CC82FE0083E1BC /* Categories in Resources */,
+				8D4D111025CC82FE0083E1BC /* Views in Resources */,
+				8D4D110F25CC82FE0083E1BC /* Models in Resources */,
+				8D4D110E25CC82FE0083E1BC /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFD5D1D5FE7C8DCA921F88A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RWPickFlavor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D4D10F825CC82740083E1BC /* Sources */ = {
@@ -260,6 +330,7 @@
 		};
 		8D4D110525CC82740083E1BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32B495B8765693D4CC5E8FF /* Pods-RWPickFlavor.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -284,6 +355,7 @@
 		};
 		8D4D110625CC82740083E1BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57967F1B804562696E8DF307 /* Pods-RWPickFlavor.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
